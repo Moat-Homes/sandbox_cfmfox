@@ -1,0 +1,33 @@
+{
+    "version": "1.0",
+    "model": {
+        "tables": [
+            {
+                "name": "SampleTable",
+                "columns": [
+                    {
+                        "name": "Column1",
+                        "dataType": "string"
+                    },
+                    {
+                        "name": "Column2",
+                        "dataType": "int64"
+                    }
+                ]
+            }
+        ]
+    },
+    "visualizations": [
+        {
+            "type": "table",
+            "name": "SampleTableVisualization",
+            "data": {
+                "table": "SampleTable",
+                "columns": [
+                    "Column1",
+                    "Column2"
+                ]
+            }
+        }
+    ]
+}
